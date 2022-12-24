@@ -1,0 +1,76 @@
+body{
+    background-image: url(../IMAGENES/fondo.jpg);
+    padding: 0%;
+    margin: 0%;
+}
+.formulario{
+    width: 450px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.74);
+    display: flex;
+    justify-content: center;
+    margin: auto auto;
+    padding: 50px 95px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.863);
+    font-size: 15px;
+    flex-direction: column;
+}
+
+.boton{
+    background-color:rgb(255, 0, 0);
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 10px 0px;
+    font-family: 'Oxygen', sans-serif;
+}
+.bienvenida{
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(255, 0, 0);
+    font-size: 100px;
+    padding: 5px 0px;
+    font-family: 'Bigelow Rules', cursive;
+    background-color: rgba(250, 235, 215, 0);
+}
+.alerta{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    background-color: rgb(255, 115, 0);
+    border: 1px solid rgb(255, 94, 0);
+    border-radius: 2px;
+    text-align: center;
+}
+.alertab{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    background-color: rgb(55, 209, 75);
+    border: 1px solid rgb(0, 170, 37);
+    border-radius: 2px;
+    text-align: center;
+}
+.casilla{
+    width: 100%;
+}
+.formulario_label{
+    color: rgb(255, 255, 255);
+    font-family: 'Oxygen', sans-serif;
+}
+.formulario_titulo{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    font-family: 'Bigelow Rules', cursive;
+    
+}
+.registrate{
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Oxygen', sans-serif;
+    margin-top: 10px;
+}
+a{ 
+    color: white;
+    text-decoration: none;
+}
+

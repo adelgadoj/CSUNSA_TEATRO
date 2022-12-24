@@ -1,0 +1,151 @@
+body {
+    background-image: url(../IMAGENES/fondo.jpg);
+    background-size: cover;
+}
+
+label {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+input {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.521);
+    border-radius: 3px;
+}
+
+.bienvenida {
+    color: rgb(255, 0, 0);
+    font-size: 80px;
+    padding: 5px 0px;
+    font-family: 'Bigelow Rules', cursive;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+.envia {
+    width: auto;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.521);
+    border-radius: 3px;
+}
+
+.panel {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: line wrap;
+    justify-content: center;
+    align-items: top;
+    margin: 0%;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.opciones {
+    width: 600px;
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.486);
+    margin: 10px 10px;
+    padding: 10px;
+}
+
+.formulario_subir {
+
+    background-color: rgba(0, 0, 0, 0.486);
+    padding: 3px;
+    width: auto;
+    height: auto;
+    border-radius: 15px;
+    color: white;
+    box-shadow: 3px 3px 3px 3px rgba(143, 143, 143, 0.486);
+    margin: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 100%;
+}
+
+option {
+    width: 100%;
+}
+
+select {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+}
+
+.gallery {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: rgba(0, 0, 0, 0.486);
+    margin: 10px 10px;
+    padding: 2%;
+    border-radius: 3px;
+    justify-content: center;
+
+}
+
+.gallery_container {
+    width: auto;
+    height: 700px;
+    margin: 3px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.849);
+    color: rgb(255, 255, 255);
+
+}
+
+.gallery_image {
+    width: auto;
+    height: 400px;
+    overflow: hidden;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.imagen {
+    max-width: 300px;
+    height: auto;
+    margin: 0;
+
+}
+
+.gallery_text {
+    width: auto;
+    height: auto;
+    background-color: rgba(253, 253, 253, 0);
+    padding: 30px;
+    font-size: 12px;
+    text-align: center;
+    padding: 1px;
+
+}
+
+.text_nombre {
+    width: auto;
+    height: auto;
+    font-size: 10px;
+    overflow: hidden;
+    text-align: center;
+}
